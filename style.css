@@ -1,0 +1,73 @@
+header {
+  position: sticky;
+  background-color: white;
+  top: 0; 
+  line-height: 0.75em;
+}
+
+body {
+  background-color:lightblue; 
+}
+
+h1 {
+  font-family: "Righteous", Comfortaa;
+  font-size: 72px; 
+  color:lightblue;
+  display: inline-block;
+}
+
+.material-icons.md-72 {
+  font-size: 72px;
+  color: lightblue; 
+  float: right;
+  padding-top: 2.5%;
+}
+
+h2 {
+  font-family: "Righteous", Comfortaa;
+  color:white;
+}
+
+.picture {
+  width: 50%;
+  height: 25%;
+  margin: auto;
+  display: block; 
+}  
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "Raleway", Comfortaa;
+  color: white;
+  font-size: 18px;
+}
+
+.caption {
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    padding-right: 5%;
+    padding-left: 5%; 
+  }
+}
+
+@media screen and (min-width: 640px and max-width 1024px) {
+  body {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
